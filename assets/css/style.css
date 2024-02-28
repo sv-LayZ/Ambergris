@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(252, 148, 63);
+    height: 100vh;
+    overflow-x: hidden;
+}
