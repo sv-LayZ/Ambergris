@@ -1,9 +1,9 @@
 <template>
-  <div id="token" class="flex flex-nowrap flex-col items-center p-5 w-72 h-96 bg-amber-400 relative" :class="!released ? 'unreleased' : ''">
-    <img :src="img" class="w-64 aspect-square"/>
+  <div id="token" class="flex flex-nowrap flex-col items-center p-5 w-72 h-96 border-4 rounded-md border-[#FFD931] relative" :class="!released ? 'unreleased' : ''">
+    <img :src="img" class="w-64 aspect-square object-cover"/>
     <h1 class="font-black text-4xl">{{ name }}</h1>
     <span v-if="released">$0,00{{ price }}</span>
-    <a :href="link" class="w-full flex items-center justify-center bg-yellow-400 hover:bg-yellow-500 transition-colors rounded-md font-semibold h-8">{{ released ? 'Mint': 'Not available yet'}}</a>
+    <a :href="link" class="w-full flex items-center justify-center bg-[#FFD931] hover:bg-yellow-500 transition-colors rounded-md font-semibold h-8">{{ released ? 'Mint': 'Not available yet'}}</a>
   </div>
 </template>
 

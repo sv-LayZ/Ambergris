@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "nuxt-icon": "^0.6.8",
     "sass": "^1.71.1"
   }
 }

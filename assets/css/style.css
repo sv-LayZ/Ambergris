@@ -6,7 +6,7 @@ main {
 }
 
 body {
-    background-color: rgb(252, 148, 63);
+    background: #1B2023;
     height: 100vh;
     overflow-x: hidden;
 }
